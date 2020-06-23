@@ -20,7 +20,7 @@ public interface PersonDao
 
     List<Person> selectAllPeople();
 
-    boolean updatePersonById(UUID id);
+    boolean updatePersonById(UUID id, Person person);
 
-    boolean deletePersonById(UUID uuid);
+    boolean deletePersonById(UUID id);
 }
