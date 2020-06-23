@@ -2,12 +2,12 @@ package com.example.postgresDbApi.model;
 
 import java.util.UUID;
 
-public class person
+public class Person
 {
     private UUID id;
     private String name;
 
-    public person(UUID id, String name)
+    public Person(UUID id, String name)
     {
         this.id = id;
         this.name = name;
