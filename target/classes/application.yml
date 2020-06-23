@@ -1,0 +1,7 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/persondb
+    username: postgres
+    password: password
+    poolsize: 30
+    driver-class-name: org.postgresql.Driver
